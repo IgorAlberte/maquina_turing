@@ -8,4 +8,4 @@ class Maquina:
 		self.transicoes = []
 		
 	#adiciona um símbolo aos símbolos da máquina
-	def add_simbolo(self, )
+	def add_simbolo(self, simbolo)

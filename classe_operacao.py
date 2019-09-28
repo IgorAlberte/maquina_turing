@@ -5,3 +5,4 @@ class Operacao:
 		self.caractere_atual = caractere_atual
 		self.caractere_novo = caractere_novo
 		self.direcao = direcao
+		

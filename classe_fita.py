@@ -24,3 +24,4 @@ class Fita:
 	#devolve conteúdo da célula atual
 	def conteudo_atual(self):
 		return self.conteudo[self.posicao_atual]
+		

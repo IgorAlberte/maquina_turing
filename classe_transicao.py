@@ -6,3 +6,4 @@ class Transicao:
 	
 	def add_operacao(self, operacao):
 		self.operacoes.append(operacao)
+
