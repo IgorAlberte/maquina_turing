@@ -3,7 +3,7 @@ class Fita:
 	def __init__(self, tipo):
 		self.tipo = tipo
 		self.posicao_atual = 0
-		self.conteudo = []
+		self.conteudo = ["-"]
 	
 	def mudar_posicao(self, direcao):
 		if direcao == 'D':#anda para a direita
@@ -25,3 +25,8 @@ class Fita:
 	def conteudo_atual(self):
 		return self.conteudo[self.posicao_atual]
 		
+	def add_caractere(self, caractere):
+		self.conteudo.append(caractere)
+		
+	def get_tipo(self):
+		return str(self.tipo)

@@ -1,0 +1,9 @@
+SIMB 0 1
+FITAS 2 in out
+ESTADOS 2
+FINAIS 1
+TRANSICOES 3
+e0 e1 --D --D
+e1 e1 00D -0D
+e1 e1 11D -1D
+
